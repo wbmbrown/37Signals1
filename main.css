@@ -1,0 +1,190 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+
+
+
+#happy {
+	float:left;
+	font-family:Verdana;
+	font-size:12px;
+	color:#A3A3A3;
+	padding-top:30px;
+	padding-left:50px;
+}
+
+nav {
+	float:right;
+	margin-right:40px;
+	padding-top:25px;
+}
+
+nav a:visited {
+	color: #369;	
+}
+
+nav a:hover {
+	color:#6699cc;
+}
+
+a {
+	text-decoration:none;
+}
+
+li {
+	display:inline-block;
+	padding-right:15px;
+	font-family:Verdana;
+	font-size:12px;
+	color:#369;
+}
+
+#signin a{
+	color:#4396E8;
+}
+
+#logo {
+	clear:both;
+	position:relative;
+	text-align:center;
+	padding-top:30px;
+}
+
+h1 {
+	text-align:center;
+	font-family:"Times New Roman", serif;
+	font-weight:bold;
+	font-size:50px;
+	margin-top:20px;
+}
+
+p {
+	text-align:center;
+	font-family:"Times New Roman", serif;
+	font-size:20px;
+	margin-top:20px;
+}
+
+#centertext{
+	padding-bottom:20px;
+}
+
+.links {
+	position:relative;
+	min-width:600px;
+	text-align:center;
+}
+
+.links p {
+	font-size:14px;
+	font-family:"Lucida Grande", sans-serif;
+}
+
+.box {
+	text-align:center;
+	display:inline-block;
+	border:1px solid #E7E7E7;
+	border-radius:5px;
+	padding-top:15px;
+	padding-bottom:25px;
+	padding-right:15px;
+	padding-left:15px;
+	background: -webkit-linear-gradient(#FEFEFE, #ECECEC);
+	background:    -moz-linear-gradient(#FEFEFE, #ECECEC);
+	background:     -ms-linear-gradient(#FEFEFE, #ECECEC);
+	background:      -o-linear-gradient(#FEFEFE, #ECECEC);
+	background:         linear-gradient(#FEFEFE, #ECECEC);
+}
+
+a.box {
+	padding:10px;
+}
+
+a#highrise {
+	padding-right:35px;
+	padding-left:35px;
+}
+
+#campfire img {
+	height:102px;
+}
+
+.text {
+	font-size:20px;
+	color:#2162A3;
+	font-weight:bold;
+	text-decoration:underline;
+}
+
+.symbol {
+	vertical-align:super;
+	color:grey;
+	font-size:12px;
+	margin-top:0;
+}
+
+.description {
+	color:#cc0000;
+	font-weight:bold;
+}
+
+.subtitle {
+	color:black;
+}
+
+#asterisk {
+	text-align:center;
+	padding-top:40px;
+}
+
+.title {
+	color:#2162A3;
+	text-decoration:underline;
+}
