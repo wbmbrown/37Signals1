@@ -3,6 +3,8 @@
 	<head>
 		<meta charset="utf-8">
 		<link rel="stylesheet" type="text/css" href="main.css"/>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+		<script type="text/javascript" src="script.js"></script>
 		<title>37signals</title>
 	</head>
 	<body>
@@ -17,10 +19,33 @@
 			</ul>
 		</nav>
 		<div id="logo"><img src="37SignalsLogo.png" alt="37signals Logo"/></div>
-		<div id="centertext">
+		<div id="centertext" class="original">
 		<h1>Making collaboration productive and<br>enjoyable for people every day.</h1>
 			<p>Frustration-free web-based apps for collaboration, sharing information, and making decisions.</p>
 		</div>
+		
+		<!--Begin hover code-->
+		<div id="basecamphidden" class="hidden">
+			<h1 class="hidden-h1"><span class="title">Basecamp</span> is the project management tool<br>you wish you had on your last project.</h1>
+				<p class="hidden-subhead">Are you still managing projects with email? Are you still using Excel for your to-do lists? It's time to upgrade to<br>Basecamp. Manage projects and collaborate with your team and clients the modern way.</p>
+				<img id="basearrow" src="rightarrow.png" alt="Right Arrow"/>
+		</div>
+			
+		<div id="highrisehidden" class="hidden">
+			<h1 class="hidden-h1"><span class="title">Highrise</span> remembers the important things <br> about people you'd normally forget.</h1>
+				<p class="hidden-subhead">Keep a permanent record of people you do business with. Know who you talked to, when you talked to them, <br>what was said, 
+					and when to follow up next. Over 200,000 contacts are tracked using Highrise.</p>
+				<img id="higharrow" src="rightarrow.png" alt="Right Arrow."/>
+		</div>
+		
+		<div id="campfirehidden" class="hidden">		
+			<h1 class="hidden-h1">From near or far, <span class="title">Campfire</span> helps teams work <br> together over the web in real-time.</h1>
+				<p class="hidden-subhead">Share ideas, discussions, concepts, images, code samples, videos, mockups and documents in a real-time <br>
+					private chat room. It's game changing. We couldn't run our own business without Campfire.</p> 
+				<img id="camparrow" src="leftarrow.png" alt="Left Arrow."/>
+		</div>
+		<!-- End hover code.-->
+		
 		<div class="links">
 			<a href="#">
 				<div class="box" id="basecamp">
